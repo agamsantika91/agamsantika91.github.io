@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Liga Calcio</title>
+    <meta name="description" content="Liga Calcio Serie A" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" href="./assets/images/icons/icon-192x192.png">
+    <link rel="stylesheet" href="./assets/css/materialize.min.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="shortcut icon" href="./assets/images/TIM.png" />
+    <meta name="theme-color" content="#263238" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigasi -->
+    <nav class="blue-grey darken-4" role="navigation">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo" id="logo-container">
+                <img class="responsive-img hide-on-med-and-down" width="40" src="./assets/images/TIM.png">
+                Liga<span> Calcio</span>
+            </a>
+        <a href="/public/index.html#favourite" class="sidenav-trigger" data-target="nav-mobile">
+            <i class="material-icons">arrow_back</i>
+        </a>
+        <ul class="topnav right hide-on-down"></ul>
+        <ul class="sidenav" id="nav-mobile"></ul>
+        </div>
+    </nav>
+    <!-- Akhir Navigasi -->
+
+    <!-- Isi Content -->
+    <div class="container" id="body-content" style="margin-top: 30px;"></div>
+    <div class="center" style="margin-top: 15px;">
+        <div class="preloader-wrapper big active" id="progress">
+            <div class="spinner-layer spinner-blue-only">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large pink" id="btnDelete">
+            <i class="large material-icons">delete</i>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer darken-4" style="background-color: #263238;">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text"><b>LIGA CALCIO</b></h5>
+                    <p class="grey-text text-lighten-4">Selamat datang di aplikasi Informasi Sepak Bola PWA sederhana, informasi Aplikasi mengenai Sepak bola liga Italia.aplikasi ini adalah bagian tugas dari submission dicoding</p>
+
+
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text"><b>Connect</b></h5>
+                    <ul>
+                        <li><a class="white-text" href="https://github.com/agamsantika91?tab=repositories"><i
+                                    class="fab fa-github"></i> Github</a></li>
+                        <li><a class="white-text" href="https://www.instagram.com/agamsantika/"><i
+                                    class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a class="white-text" href="mailto:agamsantika91@gmail.com"><i class="far fa-envelope"></i>
+                                Gmail</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Made by <a class="light-blue-text text-lighten-3"
+                    href="https://www.instagram.com/agamsantika/">@agamsantika</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Js -->
+    <script src="./assets/js/materialize.min.js"></script>
+    <script src="./assets/js/idb.js"></script>
+    <script src="./assets/js/fav.js" type="module"></script>
+             
+</body>
+
+</html>

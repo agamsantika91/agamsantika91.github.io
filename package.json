@@ -1,0 +1,16 @@
+{
+  "name": "proyek",
+  "version": "1.0.0",
+  "description": "Submission 3 PWA",
+  "main": "push.js",
+  "dependencies": {
+    "materialize-social": "^1.0.3",
+    "web-push": "^3.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agam Santika",
+  "license": "ISC"
+}
