@@ -1,2 +1,2 @@
-https://agamsantika-pwa.web.app
+https://agamsantika-pwa.firebaseapp.com/
 https://agamsantika91.github.io/
