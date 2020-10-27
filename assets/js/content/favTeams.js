@@ -50,7 +50,7 @@ function showLikedTeamById(data){
                         <img class="responsive-img" src="${data.crestUrl}" alt="club">
                     </div>
                     <div class="card-content">
-                        <h5 class="purple-text center-align">${data.name}</h5>
+                        <h5 class="black-text center-align">${data.name}</h5>
                         <div class="divider"></div>
                         <h6 class="center-align">Stadium : ${data.venue}</h6>
                         <div class="divider"></div>
