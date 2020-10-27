@@ -20,6 +20,24 @@ nav a span {
     font-weight: bold;
 }
 
+nav,
+.sidenav {
+  background-color: #263238;
+}
+
+.sidenav {
+  padding-top: 40px;
+  width: 300px;
+}
+
+.sidenav a {
+  color: white !important;
+  font-family: 'Roboto',
+    sans-serif;
+  font-weight: lighter;
+  font-size: 12px !important;
+}
+
 
 /* ukuran tablet */
 @media screen and (max-width: 768px){
