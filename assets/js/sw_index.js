@@ -25,9 +25,10 @@ function requestPermission() {
                 return;
             }
 
-            if (('PushManager' in window)) {
-                navigator.serviceWorker.getRegistration().then(registration => {
-                    registration.pushManager.subscribe({
+            navigator.serviceWorker.ready.then(() => {    
+                if (('PushManager' in window)) {        
+                    navigator.serviceWorker.getRegistration().then((registration) => {            
+                        registration.pushManager.subscribe({                            
                         userVisibleOnly: true,
                         applicationServerKey: urlBase64ToUint8Array("BJeg7EigBUWeY6dUaS5KZwy1ByPbkpLYnO9IC3IdBWDYcn1arJZUQWN7FIvJI1Av6E9Kw7WC1D7WJjng3KRcGu8")
                     }).then(subscribe=> {
@@ -40,10 +41,11 @@ function requestPermission() {
                         console.error('Tidak dapat melakukan subscribe ', e.message);
                     });
                 });
-            }
-        });
-    }
-}
+              }
+            })
+          });
+        }
+      }
 
 /* fungsi ini tulis di dalam tag <script> index.html, untuk mengubah string menjadi Uint8Array */
 function urlBase64ToUint8Array(base64String) {
